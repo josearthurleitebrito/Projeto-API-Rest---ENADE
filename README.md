@@ -9,13 +9,13 @@ A API está hospedada publicamente no Render e conectada ao MongoDB Atlas.
 Você pode testar os endpoints acessando a URL base abaixo:
 **https://projeto-api-rest-enade.onrender.com**
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 * **Node.js** com **Express** (Framework backend) 
 * **MongoDB** (Banco de dados NoSQL)
 * **Mongoose** (Modelagem de dados e validação)
 * **Render** (Hospedagem e Deploy)
 
-## 📋 Recursos da API
+## Recursos da API
 A API expõe 3 recursos principais, todos com no mínimo 5 campos e suporte a operações CRUD (GET, POST, PUT, DELETE):
 1. `/cursos` - Gerenciamento das diretrizes dos cursos.
 2. `/estudantes` - Gerenciamento dos alunos (relacionado a Cursos).
@@ -26,30 +26,30 @@ A API expõe 3 recursos principais, todos com no mínimo 5 campos e suporte a op
 Siga os passos abaixo para rodar a aplicação em sua máquina:
 
 **1. Clone este repositório:**
-\`\`\`bash
+```bash
 git clone https://github.com/josearthurleitebrito/Projeto-API-Rest-ENADE.git
-\`\`\`
+```
 
 **2. Acesse a pasta do projeto:**
-\`\`\`bash
+```bash
 cd api-enade
-\`\`\`
+```
 
 **3. Instale as dependências:**
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 **4. Configure as Variáveis de Ambiente:**
 Crie um arquivo chamado `.env` na raiz do projeto e adicione a sua string de conexão do MongoDB (seja ela local ou do Atlas):
-\`\`\`env
+```env
 DATABASE_URL="sua_string_de_conexao_do_mongodb_aqui"
-\`\`\`
+```
 
 **5. Inicie o servidor:**
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
+```
 O servidor iniciará na porta padrão (acesse `http://localhost:3000`).
 
 ## Autor e Contribuição
